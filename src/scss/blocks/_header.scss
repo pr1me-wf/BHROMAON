@@ -1,0 +1,125 @@
+.header {
+  background-image: url(../images/header.png);
+  height: 742px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "JosefinSans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__form {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+  }
+
+  i {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  &__input {
+    width: 500px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+  }
+
+  &__button {
+    height: 60px;
+    width: 45%;
+    background-color: #5474fd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Aleo", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+      background: transparent;
+      border: 2px solid #5474fd;
+      transition: 0.5s;
+    }
+  }
+
+  &__name {
+    color: white;
+    font-family: "JosefinSans", sans-serif;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  &__secondname {
+    color: white;
+    font-family: "JosefinSans", sans-serif;
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+
+  &__end {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40%;
+  }
+
+  &__scroll {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-top: 120px;
+
+    &:hover {
+      opacity: 0.5;
+      transition: 0.5s;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &__input {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    &__input {
+      width: 200px;
+    }
+  }
+}

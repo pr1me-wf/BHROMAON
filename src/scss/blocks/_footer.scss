@@ -1,0 +1,74 @@
+.footer {
+    height: 268px;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__name {
+        color: white;
+        font-family: 'JosefinSans', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    &__secondname {
+        color: white;
+        font-family: 'JosefinSans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__namelink {
+        text-decoration: none;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        margin: 0 12px;
+    }
+
+    i {
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+
+        &.fab.fa-facebook-f:hover {
+            color: rgb(2, 154, 214);
+        }
+
+        &.fab.fa-twitter:hover {
+            color: rgb(2, 154, 214);
+        }
+
+        &.fab.fa-linkedin-in:hover {
+            color: rgb(2, 154, 214);
+        }
+
+        &.fab.fa-youtube:hover {
+            color: rgb(2, 154, 214);
+        }
+
+        &.fab.fa-pinterest:hover {
+            color: rgb(2, 154, 214);
+        }
+    }
+}

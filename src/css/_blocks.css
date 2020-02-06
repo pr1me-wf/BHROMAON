@@ -1,0 +1,482 @@
+.footer {
+  height: 268px;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .footer__name {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 16px; }
+  .footer__subname {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 30px; }
+  .footer i {
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1; }
+    .footer i.fab.fa-facebook-f::before {
+      content: "\f39e"; }
+    .footer i.fab.fa-facebook-f:hover {
+      color: #3f51b5; }
+    .footer i.fab.fa-twitter::before {
+      content: "\f099"; }
+    .footer i.fab.fa-twitter:hover {
+      color: #03a9f4; }
+    .footer i.fab.fa-linkedin-in::before {
+      content: "\f0e1"; }
+    .footer i.fab.fa-linkedin-in:hover {
+      color: #3f51b5; }
+    .footer i.fab.fa-youtube::before {
+      content: "\f167"; }
+    .footer i.fab.fa-youtube:hover {
+      color: #ff1c1c; }
+    .footer i.fab.fa-pinterest::before {
+      content: "\f0d2"; }
+    .footer i.fab.fa-pinterest:hover {
+      color: #f44336; }
+  .footer__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer__item {
+    margin: 0 12px; }
+
+.header {
+  background-image: url(../images/header.png);
+  height: 742px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'JosefinSans';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .header__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .header__form {
+    width: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid white; }
+  .header i {
+    font-size: 20px;
+    padding-left: 15px; }
+  .header__input {
+    width: 500px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    display: inline-block; }
+  .header__button {
+    height: 60px;
+    width: 45%;
+    background-color: #5474fd;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: 'Aleo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none; }
+  .header__name {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .header__subname {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 50px; }
+  .header__end {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40%; }
+  .header__scroll {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0.5;
+    margin-top: 120px; }
+    .header__scroll:hover {
+      opacity: 0.3; }
+    .header__scroll a {
+      text-decoration: none; }
+  @media screen and (max-width: 767px) {
+    .header__input {
+      width: 300px; } }
+
+.nav {
+  height: 80px;
+  background-color: #5474fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .nav__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .nav__name {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .nav__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Aleo'; }
+    .nav__item:hover {
+      border: 1px solid white;
+      padding: 5px 0; }
+  .nav__link {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px; }
+    .nav__link:focus {
+      color: #D3D3D3; }
+  .nav__mainlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  @media screen and (max-width: 768px) {
+    .nav__name {
+      font-size: 18px; }
+    .nav__item {
+      font-size: 10px;
+      text-align: center; }
+      .nav__item:hover {
+        padding: 3px 0; } }
+  @media screen and (max-width: 425px) {
+    .nav__item {
+      font-size: 8px; }
+    .nav__link {
+      margin: 0 10px; } }
+
+.points {
+  height: 337px;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .points__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .points__name {
+    color: #e8e8e8;
+    font-family: 'Aleo';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 30px; }
+  .points__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -15px;
+    background-color: #333; }
+  @media screen and (max-width: 768px) {
+    .points__head {
+      width: 80%; }
+    .points__name {
+      font-size: 24px; } }
+  @media screen and (max-width: 1024px) {
+    .points__head {
+      display: none; } }
+  @media screen and (max-width: 425px) {
+    .points__name {
+      font-size: 16px; } }
+
+.spain {
+  background-image: url(../images/spain.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .spain__block {
+    background-color: rgba(35, 35, 35, 0.9);
+    width: 50%;
+    padding: 50px 50px 30px 25px; }
+  .spain__country {
+    color: #e8e8e8;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 30px; }
+  .spain__title {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-bottom: 30px; }
+  .spain__subname {
+    color: #e8e8e8;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 50px; }
+  .spain__button {
+    color: white;
+    font-family: 'Aleo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: #5474fd;
+    border: 0;
+    height: 60px;
+    width: 45%;
+    opacity: 1;
+    background-image: url(../images/button.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    cursor: pointer; }
+    .spain__button:hover {
+      background-color: transparent;
+      color: #A9A9A9;
+      background: none;
+      border: 1px solid #5474fd; }
+  @media screen and (max-width: 768px) {
+    .spain__block {
+      width: 75%; }
+    .spain__title {
+      font-size: 18px; }
+    .spain__country {
+      font-size: 16px; }
+    .spain__subname {
+      font-size: 12px; }
+    .spain__button {
+      font-size: 14px; } }
+  @media screen and (max-width: 425px) {
+    .spain__block {
+      width: 100%; } }
+
+.spainalt {
+  background-image: url(../images/spain1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .spainalt__all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .spainalt__block {
+    background-color: rgba(35, 35, 35, 0.9);
+    width: 50%;
+    padding: 50px 50px 30px 25px; }
+  .spainalt__country {
+    color: #e8e8e8;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 30px; }
+  .spainalt__title {
+    color: white;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-bottom: 30px; }
+  .spainalt__subname {
+    color: #e8e8e8;
+    font-family: "JosefinSans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 50px; }
+  .spainalt__button {
+    color: white;
+    font-family: 'Aleo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: #5474fd;
+    border: 0;
+    height: 60px;
+    width: 45%;
+    opacity: 1;
+    background-image: url(../images/button.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    cursor: pointer; }
+    .spainalt__button:hover {
+      background-color: transparent;
+      color: #A9A9A9;
+      background: none;
+      border: 1px solid #5474fd; }
+  @media screen and (max-width: 768px) {
+    .spainalt__block {
+      width: 75%; }
+    .spainalt__title {
+      font-size: 18px; }
+    .spainalt__country {
+      font-size: 16px; }
+    .spainalt__subname {
+      font-size: 12px; }
+    .spainalt__button {
+      font-size: 14px; } }
+  @media screen and (max-width: 425px) {
+    .spainalt__block {
+      width: 100%; } }
